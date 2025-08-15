@@ -3,6 +3,7 @@ Projeto supabase, python e Z-Api
 Projeto com objetivo de enviar mensagens automáticas via WhatsApp usando contatos armazenados no Supabase e Z-API
 
 #1º etapa Foi criado uma tabela no supabase com os seguintes requisitos: 1.id, 2.Nome, 3.Celular;
+curl 'https://chlybsbaalwkpxkgputm.supabase.co/rest/v1/ListaContatos?select=*'        
 
 #2º etapa Foi criado um ambiente no Z-API para que possibilitasse o envio das mensagens automáticas dos cadastros feitos no Supabase; Obs.: Para o funcionamento do Z-API, utilizei o site https://us2.make.com/ para a criação de um webhook;
 
